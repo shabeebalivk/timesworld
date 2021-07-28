@@ -1,0 +1,31 @@
+.sign-main{
+    display: flex;
+
+}
+.sign-left{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+.sign-head{
+
+}
+.sign-form{
+
+}
+.sign-form button a{
+    text-decoration:none;
+}
+.sign-other{
+
+}
+
+
+.sign-right{
+    flex: 1;
+    background-color: aqua;
+
+}
