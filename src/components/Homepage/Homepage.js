@@ -25,6 +25,9 @@ export default function Homepage() {
                     <h6>Asia</h6>
                     <h6>Europe</h6>
                 </div>
+                <div className="homepage-nav-right-res">
+                    <button><i class="fas fa-bars"></i></button>
+                </div>
             </div>
             
             <div className="homepage-countries">

@@ -1,6 +1,7 @@
 .sign-main{
     display: flex;
-
+    width: 98vw;
+    height:97vh;
 }
 .sign-left{
     display: flex;
@@ -8,24 +9,57 @@
     flex:1;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    /* background-color: blue; */
 }
-.sign-head{
 
+.sign-head h6{
+    font-size: 20px;
+    
 }
-.sign-form{
-
+.sign-form input{
+    padding: 10px;
+    padding-right: 83px;
+    margin-top: 4%;
+    border: 3px solid black;
 }
-.sign-form button a{
+#submit{
+    color: white;
+    background-color:#333333;
+    text-align: center;
+    padding: 4% 41%;
+}
+#submit a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.sign-form label{
+    margin-top: 4%;
+    text-decoration: none;
+}
+.sign-form button{
+    margin-top: 4%;
+}
+.sign-form button{
     text-decoration:none;
 }
 .sign-other{
-
+    width: 50%;
+    margin-left: 24%;
 }
-
+.sign-other-icon{
+    /* margin-left: 10%; */
+}
+.sign-other-icon i{
+    padding-right:10%;
+}
 
 .sign-right{
     flex: 1;
-    background-color: aqua;
-
+    /* background-color: aqua; */
+}
+.sign-right img{
+    width: 500px;
+    height: 500px;
+    margin-top:16% ;
 }

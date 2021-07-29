@@ -47,3 +47,31 @@
 .countries-right{
     margin-top:4px;
 }
+.homepage-nav-right-res{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .homepage-nav-left {    
+        margin-left: 1%;
+    }
+    .homepage-countries{
+      grid-template-columns: auto;
+      margin-left: 4%;
+      width: 94%;
+    }
+    .homepage-nav-right{
+        display: none;
+    }
+    .homepage-nav-right-res{
+        display: block;
+        position: absolute;
+        right: 14%;
+        top: 7%;
+    }
+    .homepage-nav-right-res button{
+        background-color: transparent;
+        border: 0px;
+    }
+  }
