@@ -24,7 +24,7 @@ export default function Signin() {
             <div className="sign-left">
                 <div className="sign-head">
                     <h2>Sign In</h2>
-                    <h6>New user?<a href="#">Create an account</a></h6>
+                    <p>New user?<a href="#">&nbsp;Create an account</a></p>
                 </div>
                 <div className="sign-form">
                     <form action="">

@@ -1,6 +1,6 @@
 .homepage-main{
     display: flex;
-    width:100vw;
+    width:98vw;
     height:100vh;
     flex-direction: column;
 }
@@ -16,7 +16,7 @@
 .homepage-nav-right{
     display: flex;
     position:absolute;
-    right:20%;
+    right:23%;
 }
 .homepage-nav-right h6{
     padding-right: 50px;
@@ -50,7 +50,12 @@
 .homepage-nav-right-res{
     display: none;
 }
-
+.social{
+    width: 50%;
+    margin-left: 24%;
+    text-align: center;
+    padding-top: 2%;
+}
 
 @media only screen and (max-width: 600px) {
     .homepage-nav-left {    

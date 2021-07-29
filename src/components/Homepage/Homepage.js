@@ -7,7 +7,7 @@ export default function Homepage() {
     useEffect(() => {
         axios.get('https://restcountries.eu/rest/v2/all?fields=name;flag;region')
         .then(res =>{
-            console.log(res);
+            // console.log(res);
             setCountries(res.data)
         })
         .catch(err=>{
@@ -34,7 +34,7 @@ export default function Homepage() {
                 {countries.map(country =>(
                 <div className="countries-list">
                     <div className="countries-flag">
-                        <img src={country.flag}/>
+                        <img src={country.flag} alt="flag"/>
                     </div>
                     <div className="countries-right">
                         <div className="countries-name">{country.name}</div>
@@ -43,6 +43,16 @@ export default function Homepage() {
                 </div>
                  ))}
             </div>
+            <div className="social">
+                    <div className="sign-other-icon">
+                        <i class="fab fa-google"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <p>Example@email.com</p>
+                    <p>Copyright &copy 2020 Name.All right reserved</p>
+                </div>
         </div>
     )
 }

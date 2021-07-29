@@ -12,9 +12,12 @@
     /* background-color: blue; */
 }
 
-.sign-head h6{
-    font-size: 20px;
-    
+
+.sign-head{
+    margin-left: -63px;  
+}
+.sign-head p a{
+    text-decoration: none;
 }
 .sign-form input{
     padding: 10px;
@@ -59,7 +62,25 @@
     /* background-color: aqua; */
 }
 .sign-right img{
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     margin-top:16% ;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .sign-right{
+        display: none;
+    }
+    .sign-other {
+        width: 61%;
+        margin-left: 9%;
+    }
+    .sign-other-icon {
+        margin-left: -3%;
+    }
+    .sign-other-icon i {
+        padding: 0% 8%;
+    }
 }
